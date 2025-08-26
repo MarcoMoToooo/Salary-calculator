@@ -405,8 +405,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
       // Recompute whenever inputs change (optional but useful)
       document.querySelectorAll('input,select').forEach(el => {
-	    el.addEventListener('input', calc);
-        el.addEventListener('change', calc);
       });
 
       // initial compute
